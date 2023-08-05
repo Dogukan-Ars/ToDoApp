@@ -15,7 +15,7 @@ function Form({todoList, setTodoList}) {
 
     return (
     <form onSubmit={submitHandler} className='form-div'>
-        <input name='input' type="text" placeholder='Write here' value={input} onChange={changeHandler}/>
+        <input name='input' type="text" placeholder='write here...' value={input} onChange={changeHandler}/>
         <button name='button'>Add ToDo</button>
     </form>
     )
